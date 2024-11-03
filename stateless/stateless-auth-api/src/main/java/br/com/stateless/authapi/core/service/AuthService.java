@@ -15,7 +15,7 @@ import static org.springframework.util.ObjectUtils.isEmpty;
 public class AuthService {
 
     private final UserRepository repository;
-    private final PasswordEncoder passwordEncoder;;
+    private final PasswordEncoder passwordEncoder;
     private final JwtService jwtService;
 
     public TokenDTO login(AuthRequest request) {
